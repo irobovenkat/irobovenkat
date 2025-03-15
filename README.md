@@ -1,5 +1,5 @@
 ## Hi there 👋
-**irobovenkat/irobovenkat** is a ✨ _special_ ✨ repository because it will be useful for leaners like me.
+**irobovenkat/irobovenkat** is a ✨ _special_ ✨ repository because it will be useful for learners like me.
 
 Here are some ideas to get you started:
 
