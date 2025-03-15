@@ -32,7 +32,7 @@
 </head>
 <body>
     <button class="btn-gradient" onclick="window.open('https://www.example.com/', '_blank');">
-      <b>Sample Button</b>
+      <b>Button Name to Be Appeared</b>
     </button>
 </body>
 </html>
