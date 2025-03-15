@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Button</title>
+    <style>
+        .btn-gradient {
+            background: linear-gradient(45deg, #675AF5, #BFBDF5); /* Gradient Colors */
+            color: White;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 25px;
+	    text-transform: capitalize;
+        }
+                
+        /* Hover Effect */
+        .btn-gradient:hover {
+            background: linear-gradient(45deg, #ff6a5f, #ffb47b);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Active (Click) Effect */
+        .btn-gradient:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <button class="btn-gradient" onclick="window.open('https://www.example.com/', '_blank');">
+      <b>Sample Button</b>
+    </button>
+</body>
+</html>
